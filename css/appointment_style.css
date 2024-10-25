@@ -1,0 +1,756 @@
+.appointment {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .appointment .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(181, 192, 208) 100%);
+    width: 1280px;
+    height: 1501px;
+    position: relative;
+  }
+  
+  .appointment .overlap {
+    position: absolute;
+    width: 1304px;
+    height: 266px;
+    top: -1px;
+    left: -12px;
+  }
+  
+  .appointment .rectangle {
+    position: absolute;
+    width: 1304px;
+    height: 88px;
+    top: 1px;
+    left: 0;
+    background-color: #b5c0d0;
+    opacity: 0.6;
+  }
+
+  input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  .input1{
+    position: absolute;
+    width: 378px;
+    height: 37px;
+    top: 72px;
+    left: 162.5px;
+  }
+
+  .first{
+    position: absolute;
+    width: 322px;
+    height: 33px;
+    top: 50px;
+    left: 50px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .input2{
+    position: absolute;
+    width: 378px;
+    height: 37px;
+    top: 4.4rem;
+    left: 42.7rem;
+  }
+
+  .last{
+    position: absolute;
+    width: 380px;
+    height: 33px;
+    top: 3rem;
+    left: 34rem;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .appointment .phone{
+    width: 391px;
+    top: 1em;
+    left: -2em;
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    font-family: "M PLUS Code Latin", Helvetica;
+    color: #4f463d;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .appointment .input3{
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    /* ================ */
+    position: absolute;
+    width: 400px;
+    height: 37px;
+    top: 3em;
+    left: 110px;
+  }
+
+  .appointment .email1{
+    position: absolute;
+    width: 372px;
+    height: 33px;
+    top: 15px;
+    left: -165px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .appointment .input6{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    /* ================ */
+    position: absolute;
+    width: 400px;
+    height: 37px;
+    top: 3em;
+    left: -1em;
+  }
+
+  
+  .appointment .text-wrapper {
+    position: absolute;
+    width: 545px;
+    height: 88px;
+    top: 28px;
+    left: 159px;
+    font-family: "Pixelify Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .text-wrapper-f {
+    position: absolute;
+    width: 545px;
+    height: 88px;
+    top: 28px;
+    left: 140px;
+    font-family: "Pixelify Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .appointment .element {
+    position: absolute;
+    width: 88px;
+    height: 78px;
+    top: 6px;
+    left: 60px;
+    object-fit: cover;
+  }
+
+  .appointment .element-f {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 6px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .appointment .rectangle-2 {
+    position: absolute;
+    width: 129px;
+    height: 40px;
+    top: 29px;
+    left: 1122px;
+    background-color: #b2c1e7;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .appointment .text-wrapper-2 {
+    position: absolute;
+    width: 79px;
+    top: 32px;
+    left: 1158px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .appointment .star {
+    position: absolute;
+    width: 22px;
+    height: 13px;
+    top: 41px;
+    left: 1136px;
+  }
+  
+  .appointment .group {
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    top: 32px;
+    left: 848px;
+  }
+  
+  .appointment .text-wrapper-3 {
+    position: absolute;
+    width: 53px;
+    top: 0;
+    left: 26px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .appointment .img {
+    position: absolute;
+    width: 22px;
+    height: 13px;
+    top: 8px;
+    left: 1px;
+  }
+  
+  .appointment .group-2 {
+    position: absolute;
+    width: 131px;
+    height: 28px;
+    top: 34px;
+    left: 963px;
+  }
+  
+  .appointment .text-wrapper-4 {
+    position: absolute;
+    width: 106px;
+    top: 0;
+    left: 24px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .appointment .text-wrapper-5 {
+    position: absolute;
+    width: 1280px;
+    height: 179px;
+    top: 130px;
+    left: 11px;
+    text-shadow: 0px 4px 4px #00000040;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #b5c0d0;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-group {
+    position: absolute;
+    width: 537px;
+    height: 179px;
+    top: 300px;
+    left: 55px;
+  }
+  
+
+  
+  .appointment .text-wrapper-7 {
+    position: absolute;
+    width: 322px;
+    height: 33px;
+    top: 108px;
+    left: 170px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-2 {
+    position: absolute;
+    width: 380px;
+    height: 69px;
+    top: 372px;
+    left: 754px;
+  }
+  
+  .appointment .overlap-3 {
+    position: absolute;
+    width: 482px;
+    height: 179px;
+    top: 501px;
+    left: 110px;
+  }
+  
+  .appointment .rectangle-5 {
+    position: absolute;
+    width: 378px;
+    height: 37px;
+    top: 72px;
+    left: 104px;
+  }
+  
+  .appointment .text-wrapper-9 {
+    position: absolute;
+    width: 372px;
+    height: 33px;
+    top: 112px;
+    left: 110px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-4 {
+    position: absolute;
+    width: 426px;
+    height: 179px;
+    top: 982px;
+    left: 214px;
+  }
+  
+  .appointment .input4 {
+    position: absolute;
+    width: 378px;
+    height: 37px;
+    top: 71px;
+    left: 0;
+  }
+  
+  .appointment .text-wrapper-10 {
+    width: 372px;
+    height: 33px;
+    top: 114px;
+    left: 6px;
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    font-family: "M PLUS Code Latin", Helvetica;
+    color: #4f463d;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .text-wrapper-11 {
+    position: absolute;
+    width: 426px;
+    top: 0;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-5 {
+    position: absolute;
+    width: 653px;
+    height: 180px;
+    top: 1162px;
+    left: 214px;
+  }
+  
+  .appointment .input5 {
+    position: absolute;
+    width: 653px;
+    height: 119px;
+    top: 55px;
+    left: 0;
+  }
+  
+  .appointment .rectangle-8 {
+    position: absolute;
+    width: 124px;
+    height: 37px;
+    top: 1053px;
+    left: 758px;
+  }
+  
+  .appointment .rectangle-9 {
+    position: absolute;
+    width: 75px;
+    height: 37px;
+    top: 1053px;
+    left: 904px;
+  }
+  
+  .appointment .text-wrapper-12 {
+    position: absolute;
+    width: 124px;
+    height: 33px;
+    top: 1091px;
+    left: 758px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-6 {
+    position: absolute;
+    width: 377px;
+    height: 186px;
+    top: 732px;
+    left: 214px;
+  }
+  
+  .appointment .text-wrapper-13 {
+    position: absolute;
+    width: 139px;
+    height: 44px;
+    top: 71px;
+    left: 20px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .yes {
+    position: absolute;
+    width: 30px;
+    height: 44px;
+    top: 65px;
+    left: 0;
+  }
+  
+  .appointment .text-wrapper-14 {
+    width: 139px;
+    height: 44px;
+    top: 141px;
+    left: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    font-family: "M PLUS Code Latin", Helvetica;
+    color: #4f463d;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .no {
+    position: absolute;
+    width: 30px;
+    height: 44px;
+    top: 135px;
+    left: 0;
+  }
+  
+  .appointment .text-wrapper-15 {
+    position: absolute;
+    width: 377px;
+    top: 0;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .overlap-7 {
+    position: absolute;
+    width: 378px;
+    height: 179px;
+    top: 501px;
+    left: 755px;
+  }
+  
+  .appointment .overlap-group-wrapper {
+    position: absolute;
+    width: 144px;
+    height: 58px;
+    top: 1384px;
+    left: 569px;
+  }
+  
+  .appointment .overlap-group-2 {
+    position: relative;
+    width: 142px;
+    height: 58px;
+  }
+  
+
+  .submit-button {
+    display: flex;
+    align-items: center;
+    border: none; 
+    background: transparent; 
+    cursor: pointer; 
+    padding: 0; 
+}
+
+.rectangle-13 {
+    width: 100%; 
+    height: auto; 
+}
+
+.text-wrapper-17 {
+  position: absolute;
+  width: 142px;
+  top: 5px;
+  left: -10px;
+  font-family: "M PLUS Code Latin", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.submit-button:hover .rectangle-13 {
+    opacity: 0.8; 
+}
+  
+  .appointment .overlap-wrapper {
+    position: absolute;
+    width: 1282px;
+    height: 167px;
+    top: 1469px;
+    left: -1px;
+  }
+  
+  .appointment .overlap-8 {
+    position: relative;
+    width: 1280px;
+    height: 167px;
+  }
+  
+  .appointment .rectangle-14 {
+    position: absolute;
+    width: 1280px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    background-color: #b5c0d0;
+    opacity: 0.6;
+  }
+  
+  .appointment .p {
+    position: absolute;
+    width: 823px;
+    top: 8px;
+    left: 224px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .appointment .github {
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 4px;
+    left: 41px;
+    object-fit: cover;
+  }
+  
+  .appointment .email {
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 4px;
+    left: 127px;
+    object-fit: cover;
+  }
+  
+  .appointment .fb {
+    position: absolute;
+    width: 35px;
+    height: 28px;
+    top: 4px;
+    left: 71px;
+    object-fit: cover;
+  }
+  
+  .appointment .black-white-modern {
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: 5px;
+    left: 104px;
+    object-fit: cover;
+  }
+
+ /* Tablet Viewport */
+ @media only screen and (min-width: 501px) and (max-width: 1024px){
+
+  .appointment {
+    flex-direction: column;
+    overflow: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .appointment .mobile-nav{
+    display: none;
+  }
+}
+  /* Desktop Viewport */
+  @media only screen and (min-width: 1025px) {
+    .appointment .mobile-nav{
+      display: none;
+    }
+  }
+
+
+/* Mobile Styles */
+@media (max-width: 500px) {
+  
+.appointment {
+  flex-direction: column;
+  overflow: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS styles for hamburger menu */
+
+.mobile-nav {
+  position: absolute;
+  width: 101%;
+  background-color: #b5c0d0;
+  padding: 3%;
+  display: block;
+  z-index: 1000;
+  bottom: auto;
+  border-bottom: white 10px solid;
+}
+
+.mobile-nav a.menu-icon img {
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 17px;
+  max-width: 40px;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 3.5%;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  z-index: 1001;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.sidebar a {
+  width: 100%;
+  border-bottom: #b5c0d0 solid 3px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: "M PLUS Code Latin", Helvetica;
+}
+
+.sidebar a:hover {
+  background-color: #b5c0d0;
+}
+
+.about-me .element-9 {
+z-index: 500%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 60px;
+  object-fit: cover;
+}
+
+}
+  
+
+
+
+  

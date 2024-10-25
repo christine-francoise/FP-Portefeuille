@@ -1,0 +1,939 @@
+.skills {
+    background-color: #b5c0d0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .skills .div {
+    background-color: #b5c0d0;
+    overflow: hidden;
+    width: 1280px;
+    height: 2386px;
+    position: relative;
+  }
+  
+  .skills .overlap {
+    position: absolute;
+    width: 1304px;
+    height: 452px;
+    top: -1px;
+    left: -12px;
+  }
+  
+  .skills .rectangle {
+    position: absolute;
+    width: 1304px;
+    height: 88px;
+    top: 1px;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.6;
+  }
+  
+  .skills .text-wrapper {
+    position: absolute;
+    width: 545px;
+    height: 88px;
+    top: 28px;
+    left: 159px;
+    font-family: "Pixelify Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .skills .text-wrapper-f {
+    position: absolute;
+    width: 545px;
+    height: 88px;
+    top: 28px;
+    left: 140px;
+    font-family: "Pixelify Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .element {
+    position: absolute;
+    width: 88px;
+    height: 78px;
+    top: 6px;
+    left: 60px;
+    object-fit: cover;
+  }
+
+  .skills .element-f {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 6px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  
+  .skills .rectangle-2 {
+    position: absolute;
+    width: 129px;
+    height: 40px;
+    top: 29px;
+    left: 1122px;
+    background-color: #b2c1e7;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .skills .text-wrapper-2 {
+    position: absolute;
+    width: 79px;
+    top: 32px;
+    left: 1158px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .skills .star {
+    position: absolute;
+    width: 22px;
+    height: 13px;
+    top: 41px;
+    left: 1136px;
+  }
+  
+  .skills .group {
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    top: 32px;
+    left: 848px;
+  }
+  
+  .skills .text-wrapper-3 {
+    position: absolute;
+    width: 53px;
+    top: 0;
+    left: 26px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .skills .img {
+    position: absolute;
+    width: 22px;
+    height: 13px;
+    top: 8px;
+    left: 1px;
+  }
+  
+  .skills .group-2 {
+    position: absolute;
+    width: 131px;
+    height: 28px;
+    top: 34px;
+    left: 963px;
+  }
+  
+  .skills .text-wrapper-4 {
+    position: absolute;
+    width: 106px;
+    top: 0;
+    left: 24px;
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .skills .text-wrapper-5 {
+    position: absolute;
+    width: 1280px;
+    height: 179px;
+    top: 135px;
+    left: 11px;
+    text-shadow: 0px 4px 4px #00000040;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .leadership {
+    position: absolute;
+    width: 421px;
+    height: 192px;
+    top: 260px;
+    left: 141px;
+  }
+  
+  .skills .overlap-group {
+    position: relative;
+    width: 417px;
+    height: 192px;
+  }
+  
+  .skills .rectangle-3 {
+    position: absolute;
+    width: 417px;
+    height: 129px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .skills .rabit {
+    position: absolute;
+    width: 60px;
+    height: 74px;
+    top: 0;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+  .skills .text-wrapper-6 {
+    position: absolute;
+    width: 417px;
+    top: 13px;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .text-wrapper-7 {
+    position: absolute;
+    width: 417px;
+    height: 33px;
+    top: 92px;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .rectangle-4 {
+    position: absolute;
+    width: 349px;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #d9d9d9;
+  }
+  
+  .skills .rectangle-5 {
+    position: absolute;
+    width: 256px;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #4f463d;
+  }
+  
+  .skills .communication {
+    position: absolute;
+    width: 435px;
+    height: 192px;
+    top: 260px;
+    left: 708px;
+  }
+  
+  .skills .overlap-2 {
+    position: relative;
+    width: 431px;
+    height: 192px;
+  }
+  
+  .skills .text-wrapper-8 {
+    position: absolute;
+    width: 417px;
+    top: 13px;
+    left: 14px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .rectangle-6 {
+    position: absolute;
+    width: 223px;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #4f463d;
+  }
+  
+  .skills .overlap-wrapper {
+    position: absolute;
+    width: 421px;
+    height: 192px;
+    top: 451px;
+    left: 129px;
+  }
+  
+  .skills .rectangle-7 {
+    width: 279px;
+    position: absolute;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #4f463d;
+  }
+  
+  .skills .overlap-group-wrapper {
+    position: absolute;
+    width: 435px;
+    height: 192px;
+    top: 451px;
+    left: 696px;
+  }
+  
+  .skills .rectangle-8 {
+    width: 285px;
+    top: 69px;
+    left: 34px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .div-wrapper {
+    position: absolute;
+    width: 435px;
+    height: 192px;
+    top: 643px;
+    left: 696px;
+  }
+  
+  .skills .rectangle-9 {
+    width: 306px;
+    top: 69px;
+    left: 34px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .communication-2 {
+    position: absolute;
+    width: 445px;
+    height: 195px;
+    top: 643px;
+    left: 129px;
+  }
+  
+  .skills .overlap-3 {
+    position: relative;
+    width: 441px;
+    height: 195px;
+  }
+  
+  .skills .text-wrapper-9 {
+    position: absolute;
+    width: 417px;
+    top: 16px;
+    left: 24px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .overlap-4 {
+    position: absolute;
+    width: 1513px;
+    height: 1669px;
+    top: 852px;
+    left: -179px;
+  }
+  
+  .skills .rectangle-10 {
+    position: absolute;
+    width: 1353px;
+    height: 1042px;
+    top: 1px;
+    left: 160px;
+    background-color: #d3e0ea;
+  }
+  
+  .skills .plastic {
+    position: absolute;
+    width: 1280px;
+    height: 1042px;
+    top: 1px;
+    left: 179px;
+    object-fit: cover;
+  }
+  
+  .skills .communication-3 {
+    position: absolute;
+    width: 445px;
+    height: 198px;
+    top: 197px;
+    left: 296px;
+  }
+  
+  .skills .overlap-5 {
+    position: relative;
+    width: 441px;
+    height: 198px;
+  }
+  
+  .skills .rectangle-11 {
+    position: absolute;
+    width: 417px;
+    height: 167px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .skills .text-wrapper-10 {
+    position: absolute;
+    width: 417px;
+    top: 19px;
+    left: 24px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .text-wrapper-11 {
+    top: 134px;
+    position: absolute;
+    width: 417px;
+    height: 33px;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .rectangle-12 {
+    position: absolute;
+    width: 349px;
+    height: 23px;
+    top: 109px;
+    left: 29px;
+    background-color: #d9d9d9;
+  }
+  
+  .skills .rectangle-13 {
+    width: 202px;
+    top: 109px;
+    left: 29px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .element-2 {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 24px;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+  .skills .communication-4 {
+    position: absolute;
+    width: 445px;
+    height: 198px;
+    top: 421px;
+    left: 296px;
+  }
+  
+  .skills .rectangle-14 {
+    position: absolute;
+    width: 417px;
+    height: 144px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .skills .text-wrapper-12 {
+    position: absolute;
+    width: 441px;
+    top: 19px;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .text-wrapper-13 {
+    top: 104px;
+    position: absolute;
+    width: 417px;
+    height: 33px;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .rectangle-15 {
+    position: absolute;
+    width: 349px;
+    height: 23px;
+    top: 75px;
+    left: 29px;
+    background-color: #d9d9d9;
+  }
+  
+  .skills .rectangle-16 {
+    width: 251px;
+    top: 75px;
+    left: 29px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .element-3 {
+    left: 24px;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 10px;
+    object-fit: cover;
+  }
+  
+  .skills .communication-5 {
+    position: absolute;
+    width: 463px;
+    height: 198px;
+    top: 421px;
+    left: 883px;
+  }
+  
+  .skills .overlap-6 {
+    position: relative;
+    width: 459px;
+    height: 198px;
+  }
+  
+  .skills .text-wrapper-14 {
+    position: absolute;
+    width: 441px;
+    top: 19px;
+    left: 18px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #4f463d;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .rectangle-17 {
+    width: 189px;
+    top: 75px;
+    left: 29px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .element-4 {
+    left: 28px;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 10px;
+    object-fit: cover;
+  }
+  
+  .skills .communication-6 {
+    position: absolute;
+    width: 445px;
+    height: 198px;
+    top: 197px;
+    left: 882px;
+  }
+  
+  .skills .rectangle-18 {
+    width: 229px;
+    top: 109px;
+    left: 29px;
+    position: absolute;
+    height: 23px;
+    background-color: #4f463d;
+  }
+  
+  .skills .leadership-2 {
+    position: absolute;
+    width: 421px;
+    height: 192px;
+    top: 841px;
+    left: 322px;
+  }
+  
+  .skills .rectangle-19 {
+    width: 209px;
+    position: absolute;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #4f463d;
+  }
+  
+  .skills .element-5 {
+    position: absolute;
+    width: 63px;
+    height: 61px;
+    top: 4px;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+  .skills .leadership-3 {
+    position: absolute;
+    width: 421px;
+    height: 192px;
+    top: 841px;
+    left: 892px;
+  }
+  
+  .skills .rectangle-20 {
+    width: 197px;
+    position: absolute;
+    height: 23px;
+    top: 69px;
+    left: 34px;
+    background-color: #4f463d;
+  }
+  
+  .skills .text-wrapper-15 {
+    position: absolute;
+    width: 1280px;
+    height: 179px;
+    top: 1em;
+    left: 178px;
+    text-shadow: 0px 4px 4px #00000040;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 65px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .ellipse {
+    position: absolute;
+    width: 257px;
+    height: 56px;
+    top: 1420px;
+    left: 1030px;
+    background-color: #000000;
+    border-radius: 128.5px/28px;
+    filter: blur(80px);
+    opacity: 0.45;
+  }
+  
+  .skills .group-3 {
+    position: absolute;
+    width: 976px;
+    height: 168px;
+    top: 589px;
+    left: 0;
+  }
+  
+  .skills .overlap-7 {
+    position: relative;
+    width: 974px;
+    height: 168px;
+  }
+  
+  .skills .rectangle-21 {
+    position: absolute;
+    width: 517px;
+    height: 96px;
+    top: 40px;
+    left: 226px;
+    background-color: #d9d9d9;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .skills .text-wrapper-16 {
+    position: relative;
+    width: 974px;
+    height: 168px;
+    top: 1.5em;
+    left: 0;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #3d3131;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .dup {
+    position: absolute;
+    width: 390px;
+    height: 402px;
+    top: 1074px;
+    left: 963px;
+  }
+  
+  .skills .req {
+    position: absolute;
+    width: 787px;
+    height: 690px;
+    top: 844px;
+    left: 286px;
+    object-fit: cover;
+  }
+  
+  .skills .group-4 {
+    position: absolute;
+    width: 1282px;
+    height: 167px;
+    top: 1502px;
+    left: 179px;
+  }
+  
+  .skills .overlap-8 {
+    position: relative;
+    width: 1280px;
+    height: 167px;
+  }
+  
+  .skills .rectangle-22 {
+    position: absolute;
+    width: 1280px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.6;
+  }
+  
+  .skills .p {
+    position: absolute;
+    width: 823px;
+    top: 8px;
+    left: 224px;
+    font-family: "M PLUS Code Latin", Helvetica;
+    font-weight: 400;
+    color: #4f463d;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .skills .github {
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 4px;
+    left: 41px;
+    object-fit: cover;
+  }
+  
+  .skills .email {
+    position: absolute;
+    width: 34px;
+    height: 28px;
+    top: 4px;
+    left: 127px;
+    object-fit: cover;
+  }
+  
+  .skills .fb {
+    position: absolute;
+    width: 35px;
+    height: 28px;
+    top: 4px;
+    left: 71px;
+    object-fit: cover;
+  }
+  
+  .skills .black-white-modern {
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: 5px;
+    left: 104px;
+    object-fit: cover;
+  }
+
+  /* Tablet Viewport */
+@media only screen and (min-width: 501px) and (max-width: 1024px){
+
+  .skills {
+    flex-direction: column;
+    overflow: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skills .mobile-nav{
+    display: none;
+  }
+}
+
+/* Desktop Viewport */
+@media only screen and (min-width: 1025px) {
+  .skills .mobile-nav{
+    display: none;
+    }
+}
+
+
+/* Mobile Styles */
+@media (max-width: 500px) {
+  
+  .skills {
+    flex-direction: column;
+    overflow: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+/* CSS styles for hamburger menu */
+
+.mobile-nav {
+  position: absolute;
+  width: 101%;
+  background-color: #b5c0d0;
+  padding: 3%;
+  display: block;
+  z-index: 1000;
+  bottom: auto;
+  border-bottom: white 10px solid;
+}
+
+.mobile-nav .menu-icon img {
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 17px;
+  max-width: 40px;
+}
+
+.tablet-desktop {
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  top: 3.5%;
+  right: 0;
+  height: 10%;
+  width: 100%;
+  z-index: 1001;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.sidebar a {
+  width: 100%;
+  border-bottom: #b5c0d0 solid 3px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  margin-bottom: 10px;
+  color: #000000;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: "M PLUS Code Latin", Helvetica;
+}
+
+.sidebar a:hover {
+  background-color: #b5c0d0;
+}
+
+.about-me .element-9 {
+z-index: 500%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 60px;
+  object-fit: cover;
+}
+
+}
+  
+  

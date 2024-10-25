@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/appointment_globals.css" />
+    <link rel="stylesheet" href="css/appointment_style.css" />
+    <meta name = "viewport" content = "width=device-width, initial-scale-1.0"/>
+    <link rel="shortcut icon" href="figma/logo.png">
+
+  </head>
+  <body>
+
+
+
+    <div class="appointment">
+      <div class="div">
+        <div class="overlap">
+      <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+          <div class="sidebar">
+              <a href="index.html">Home</a>
+              <a href="aboutme.html">About Me</a>
+              <a href="skills.html">Skills</a>
+          </div>
+          <a class="menu-icon" onclick="toggleSidebar()">
+              <img src="figma/menu.png" alt="Burger Bar">
+              <img class="element-f" src="figma/logo.png" />
+              <div class="text-wrapper-f">Christine Francoise</div>
+          </a>
+        </nav>
+      <!-- end of Mobile Nav -->
+      <!-- Desktop and Tablet Nav -->
+          <div class="rectangle"></div>
+          <nav class = "tablet-desktop">
+          <div class="text-wrapper">Christine Francoise</div>
+          <img class="element" src="figma/logo.png" />
+          <div class="rectangle-2"></div>
+          <a href="skills.html"><div class="text-wrapper-2">Skills</div></a>
+          <img class="star" src="figma/star2.svg" />
+          <div class="group">
+            <a href="index.html"><div class="text-wrapper-3">Home</div></a>
+            <img class="img" src="figma/star-6.svg" />
+          </div>
+          <div class="group-2">
+            <a href="aboutme.html"><div class="text-wrapper-4">About Me</div></a>
+            <img class="img" src="figma/star-6.svg" />
+          </div>
+        </nav>
+          <div class="text-wrapper-5">Request an Appointment</div>
+        </div>
+        <div class="overlap-group">
+          <form>
+            <label for="fname" class="first">First name:</label><br>
+            <input type="text" id="fname" name="fname" class="input1" placeholder="Juan"><br>
+            
+            <label for="lname" class="last">Last name:</label><br>
+            <input type="text" id="lname" name="lname" class="input2" placeholder="Dela Cruz"><br>
+          
+        </form>
+        </div>
+        <div class="overlap-2">
+        </div>
+        <div class="overlap-3">
+          <form>
+            <label for="phone" class="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" class="input3" placeholder="+639000000000"><br>
+          </form>
+        </div>
+        <div class="overlap-4">
+          <form>
+            <input type="date" id="date" name="date" class="input4"><br>
+          </form>
+          <div class="text-wrapper-10">Date</div>
+          <div class="text-wrapper-11">Select an Appointment Date</div>
+        </div>
+        <div class="overlap-5">
+          <form>
+            <textarea id="comments" name="comments" class="input5" rows="4" placeholder="Your comments..."></textarea><br>
+          </form>
+          <div class="text-wrapper-11">Comments</div>
+        </div>
+
+        <div class="overlap-6">
+          <div class="text-wrapper-13">Yes</div>
+          <div class="text-wrapper-14">No</div>
+          <div class="text-wrapper-15">First Time Customer?</div>
+          <label>
+            <input type="radio" name="first_time" value="yes" class = "yes">
+        </label>
+        <label>
+            <input type="radio" name="first_time" value="no" class = "no"> 
+        </label><br>
+          <div class="text-wrapper-15">First Time Customer?</div>
+        </div>
+        <div class="overlap-7">
+          <label for="email" class="email1">Email:</label><br>
+          <input type="email" id="email" name="email" class="input6" placeholder="example@example.com"><br>
+        </div>
+        <div class="overlap-group-wrapper">
+          <div class="overlap-group-2">
+            <button class="submit-button">
+              <a href="thanku.html"> 
+                <img class="rectangle-13" src="figma/brown.svg" alt="Submit Button Background" />
+                <div class="text-wrapper-17">Submit</div>
+              </a>
+            </button>
+
+          </div>
+        </div>
+        <div class="overlap-wrapper">
+          <div class="overlap-8">
+            <div class="rectangle-14"></div>
+            <p class="p">Copyright © 2024; Designed by Francoise Gurango</p>
+            <a href="https://github.com/christine-francoise"><img class="github" src="figma/github.png" /></a>
+            <a href="mailto: gurangofrancoise0@gmail.com"><img class="email" src="figma/email.png" /></a>
+            <a href="https://www.facebook.com/francoise09"><img class="fb" src="figma/fb.png" /></a>
+            <a href="https://www.linkedin.com/in/francoise-gurango-39b530317/"><img class="black-white-modern" src="figma/linkedin.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
